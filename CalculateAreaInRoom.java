@@ -1,5 +1,3 @@
-package com.nttdata.techacad.popquiz.calcroomarea;
-
 import java.util.Scanner;
 
 public class CalculateAreaInRoom {
