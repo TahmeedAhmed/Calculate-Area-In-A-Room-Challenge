@@ -5,10 +5,10 @@ public class CalculateAreaInRoom {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Length of room in feet: ");
-        double length = sc.nextInt();
+        double length = sc.nextDouble();
 
         System.out.println("Enter Width of room in feet: ");
-        double width = sc.nextInt();
+        double width = sc.nextDouble();
 
         displayAreaInSquareFeet(length, width);
         displayAreaInSquareMetres(length, width);
