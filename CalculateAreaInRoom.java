@@ -1,4 +1,4 @@
-package com.nttdata.techacad.popquiz.calcroomarea
+package com.nttdata.techacad.popquiz.calcroomarea;
 
 import java.util.Scanner;
 
