@@ -5,19 +5,22 @@ public class CalculateAreaInRoom {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Length of room in feet: ");
-        int length = sc.nextInt();
+        double length = sc.nextInt();
 
         System.out.println("Enter Width of room in feet: ");
-        int width = sc.nextInt();
+        double width = sc.nextInt();
 
-        displayArea(length, width);
+        displayAreaInSquareFeet(length, width);
+        displayAreaInSquareMetres(length, width);
     }
 
-    public static void displayArea(int length, int width){
-        int sqrFeet = length * width;
-        double sqrMeters = sqrFeet * 0.09290304;
-
+    public static void displayAreaInSquareFeet(double length, double width){
+        double sqrFeet = length * width;
         System.out.println("Area in square feet: " + sqrFeet);
+    }
+
+    public static void displayAreaInSquareMetres(double length, double width){
+        double sqrMeters = length * width * 0.09290304;
         System.out.println("Area in square metres: " + sqrMeters);
     }
 }
